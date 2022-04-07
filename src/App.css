@@ -1,7 +1,7 @@
 .App {
   background-color: #cccccc;
   padding: 20px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .form-container {
@@ -28,6 +28,12 @@
 .form-input {
   width: 400px;
   padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-input:focus {
+  outline: none;
 }
 
 .select {
